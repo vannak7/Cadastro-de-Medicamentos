@@ -1,0 +1,138 @@
+body {
+    background-color: #f4e9f2;
+    font-family: 'Raleway';
+    margin: 0px;
+}
+
+#top-section {
+    background: #76BEBE;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background: white;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.title {
+    color: #CF509C;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.logo {
+    width: 310px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+#sec-form {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px;
+    margin: 15px;
+}
+
+#form {
+    margin-left: 3rem;
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 467px;
+    width: 467px;
+    padding-right: 50px;
+
+
+    align-items: center;
+
+    line-height: 34px;
+
+    color: #000000;
+
+}
+
+label {
+    padding-bottom: 7px;
+    padding-top: 17px;
+
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-size: 25px;
+   
+    color: #282525;
+    text-transform: uppercase;
+}
+
+input {
+    width: 407px;
+    height: 45px;
+    font-size: 25px;
+    color: #908e90;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+button {
+    width: 306px;
+    height: 62px;
+    left: 174px;
+    top: 701px;
+    
+    background: #76BEBE;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+th {
+    width: 307px;
+    height: 31px;
+    left: 0px;
+    top: 29px;
+    padding: auto;
+    justify-content: space-around;
+    background: rgba(62, 61, 61, 0.75);
+    color: white;
+    border: 1px solid #767373;
+    line-height: 44px;
+    text-transform: uppercase;
+
+}
+
+td {
+    width: 307px;
+    height: 31px;
+    left: 0px;
+    top: 33px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373;
+}
+
